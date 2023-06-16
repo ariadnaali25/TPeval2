@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+  }
+  
+  body {
+    font-family: "kanit", sans-serif;
+    color: rgb(0, 0, 0);
+  }
+
+
+  .logo {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.2;
+  }
+  
+  
+  h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+  }
+  
+  p {
+    font-size: 30px;
+  }
+  
+
+  
+  li {
+    list-style-type: none;
+  }
+  
+  
+  p {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+ 
+.navbar {
+    background-color: purple;
+    height: 70px;
+    padding: 0 30px;
+  }  
+
+.navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+ }
+.navbar ul {
+    display: flex;
+  }
+  
+  
+  .navbar a {
+    color: white;
+    padding: 9px;
+    margin: 0 10px;
+  }
+
+.navbar a:hover {
+    color: #9867C5;
+    border-bottom: 3px solid #9867C5;
+
+  }
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+ @media(max-width: 500px) { 
+    .navbar {
+      height: 100px;
+    }
+ }
+
+.navbar .flex {
+    flex-direction: column;
+  }
+
+
+/* Cuando pasamos encima el ratón, retienen el texto blanco y cambia el borde a negro */
+
+  .navbar a:hover {
+    color: white;
+    border-bottom: 2px solid black;
+  }
+
+
+/* Establecer el color púrpura para el fondo de los enlaces de navegación, redondear las esquinas de los bordes y darle algo de espaciado*/
+
+  .navbar ul {
+    background: #9867C5;
+    border-radius: 5px;
+    padding: 10px 0;
+  }
+  .main-container{
+    margin-left: 20px;
+  }    
