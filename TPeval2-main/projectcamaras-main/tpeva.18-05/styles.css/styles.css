@@ -244,6 +244,9 @@ footer a:hover {
     .grid-3 {
       grid-template-columns: 1fr;
     }
+    body {
+      font-size: 14px;
+  }
 }
 
 .showcase {
@@ -293,6 +296,9 @@ footer a:hover {
     .navbar {
       height: 100px;
     }
+    body {
+      font-size: 12px;
+
  }
 
 .navbar .flex {
@@ -358,4 +364,4 @@ footer a:hover {
   }
 .main-container{
   margin-left: 20px;
-}  
+}  }

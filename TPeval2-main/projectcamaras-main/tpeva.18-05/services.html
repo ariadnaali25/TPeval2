@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css/service.css" >
+    <link rel="stylesheet" href="styles.css/service.css" >
     <title>Servicios</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,8 +29,41 @@
       <br>
  <div class="main-container">
     <h1>Atencion al cliente</h1>
-    <p>KJDASKDSHKJSAHKJSDHKAHDKKJDASHKDHKSDAH</p>
-    <h1>Te queremos con nosotros para "Tu camara ya 2023" , ingresa tus datos en el formulario a continuacion y obten una entrada para el evento </h1>
+    <p>Si por cualquier razon, tu camara falla o  necesitas un mantenimiento, puedes buscar nuestro numero y ubicacion en la seccion "Contactanos", y nuestros tecnicos se encargaran de revisar tu equipo. Por cuestiones de garantias o mantenimientos, descarga nuestra guia de garantias en el link debajo</p>
+    <a href="/TPeval2-main/projectcamaras-main/tpeva.18-05/files/garantee.txt" download>Descarga la guia de garantias y mantenimientos</a>
+    
+    <h1>Necesitas efectuar tu garantia o pedir u mantenimiento? Llena el siguiente formulario </h1>
+    <form class="event-form">
+      
+      <div class="campo">
+       <label for="nombre">Nombre:</label>
+       <input type="text" id="nombre" name="nombre" pattern="[A-Za-z]+" title="Solo se permiten letras y espacios" required>
+       <span id="error-nombre" class="error-message"></span>
+      </div>
+  
+      <div class="campo">
+       <label for="domicilio">Domicilio:</label>
+       <input type="text" id="domicilio" name="domicilio">
+      </div>
+      
+      <div class="campo">
+       <label for="telefono">Teléfono:</label>
+       <input type="tel" id="telefono" name="telefono" pattern="[0-9]+" required>
+      </div>
+      <div class="campo">
+      
+        <label for="opcion">Selecciona una opción:</label>
+        <select id="opcion" name="opcion" required>
+          <option value="">-- Tipo de mantenimiento --</option>
+          <option value="garantia">Garantía</option>
+          <option value="mantenimiento">Mantenimiento</option>
+        </select>
+      </div>
+      <input type="submit" class="submit" value="Enviar">
+    </form>
+    
+    
+    <h1>Te queremos con nosotros para "Tu camara ya 2023" , ingresa tus datos en el formulario a continuacion y obten una entrada para el evento que te dara el privilegio de ver nuestros nuevos modelos</h1>
    
     <form class="event-form">
        <div class="campo">
