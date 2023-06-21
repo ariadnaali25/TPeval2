@@ -7,6 +7,7 @@
   body {
     font-family: "kanit", sans-serif;
     color: rgb(255, 255, 255);
+    width:100vw
   }
 
   a {
@@ -48,7 +49,7 @@
     margin: 10px 0;
   }
 .container {
-    margin: 0 auto;
+    margin: 0 0;
     max-width: 1200px;
     overflow: visible;
   }  
@@ -83,8 +84,8 @@
   height: 300px;
   background-color: purple;
   width: 100vw;
-  margin-left: -20px;
-  margin-right: -20px;
+  margin-left: 0px;
+  margin-right: 0px;
 }  
 
 .showcase p {
@@ -258,8 +259,8 @@ footer a:hover {
 */ 
 
 .image {
-    width: 600px;
-    margin-left: 80px;
+    width: 300px;
+    margin-right: 10px;
   }
 
 /* Cambia las secciones de servicio de lado-a-lado para que cada una se posicione en una sóla linea. Centra el texto. */
